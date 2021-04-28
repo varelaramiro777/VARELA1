@@ -1,0 +1,16 @@
+1)Esta compuesta por tablas que tienen datos ordenados en filas y columnas 
+2) Es una forma de ordenar los datos en filas y columnas
+3) Con el comando CREATE DATABASE y su nombre CREATE DATABASE autos;
+4) VARCHAR para nombres e INT para numeros enteros
+5) Se crea con el comando CREATE TABLE patentes; y tienes que estar trabajando en la base de datos que quieres ingresar la tabla
+6) Con el comando INSERT INTO patentes (numeros,letras) y luego el VALUES, (456,abc)
+7) SELECT * FROM patentes;
+8) UPDATE personas SET nombre= "Juan" WHERE dni = 46215458
+   UPDATE personas SET nombre= "Francisco" WHERE edad = 15
+   UPDATE personas SET direccion = "Donado" WHERE apellido = "Garraza"
+   DELETE FROM personas WHERE apellido = "Garraza"
+   SELECT * FROM personas WHERE edad>15
+   SELECT * FROM personas WHERE edad>15, nombre = "Pedro"
+   SELECT * FROM personas nombre WHERE apellido = "Garraza"
+   SELECT * FROM personas edad WHERE apellido = "Garraza"
+   SELECT * FROM personas edad<15 WHERE apellido = "Garraza"
