@@ -1,0 +1,18 @@
+1) Esta compuesta por tablas de datos 
+2) Es un tipo de modelado donde se guardan los datos en filas y columna
+3) Se crea con el comando CREATE DATABSE y su respectivo nombre y su punto y coma al final. Ejemplo CREATE DATABASE personas; 
+4) Se utiliza el tipo de dato INT para numeros enteros y VARCHAR para nombres
+5) Se crea con el comando CREATE TABLE y a continuacion su nombre, CREATE TABLE alumnos; luego en entre parentesis los dato con sus respectivos tipos de datos, Ejemplo 
+CREATE TABLE alumnos (nombre VARCHAR(50), edad INT); , el parentesis luego de VARCHAR es la cantidad maxima de digitos de la palabra, RECORDA QUE DEBES ESTAR TRABAJANDO DENTRO DE LA BASE DE DATO EN LA QUIERES, con el comando: use personas;
+6) Con el comando INSERT INTO y el nombre de la tabla a continuacion, asi, INSERT INTO alumnos; tambien a continuacion hay que poner en orden los nombres de las columnas entre parentesis, asi, INSERT INTO alumnos (nombre,edad) y por ultimo agregan el VALUES (esto hace que le otorgue los valores a las columnas) y los datos que quieren ingresar entre parentesis en el mismo orden que pusieron antes los nombres de las columnas.
+El nombre puede ser cualquiera, pero sule ser en plural 
+7) Se puede ver con el comando SLECT * FROM alumnos; 
+8) UPDATE personas SET nombre= "Juan" WHERE dni = 46215458
+   UPDATE personas SET nombre= "Francisco" WHERE edad = 15
+   UPDATE personas SET direccion = "Donado" WHERE apellido = "Garraza"
+   DELETE FROM personas WHERE apellido = "Garraza"
+   SELECT * FROM personas WHERE edad>15
+   SELECT * FROM personas WHERE edad>15, nombre = "Pedro"
+   SELECT * FROM personas nombre WHERE apellido = "Garraza"
+   SELECT * FROM personas edad WHERE apellido = "Garraza"
+   SELECT * FROM personas edad<15 WHERE apellido = "Garraza"
