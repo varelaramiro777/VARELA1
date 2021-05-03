@@ -1,0 +1,17 @@
+USE automot;
+
+CREATE TABLE ambulan (Patente VARCHAR(9), nomCho VARCHAR(50));
+
+INSERT INTO ambulan (Patente, noMeCho) VALUES ("AH 568 75", Pedro);
+
+INSERT INTO ambulan (Patente, nomCho) VALUES ("HY 678 HJ", Ramiro);
+
+INSERT INTO ambulan (Patente, nomCho) VALUES (VF 385 KK", Guada);
+
+INSERT INTO ambulan (Patente, nomCho) VALUES ("GD 656 JJ",Fede);
+
+INSERT INTO ambulan (Patente, nomCho) VALUES ("QR 654 UI", Facu);
+
+ALTER TABLE ambulan ADD NumUnid int;
+
+UPDATE ambulan SET nomCho = "Rodolfo" WHERE nomCho = "Facu";
