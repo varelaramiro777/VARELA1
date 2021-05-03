@@ -1,0 +1,13 @@
+CREATE database personas;
+
+USE personas;
+
+CREATE TABLE alumnos (nombre varchar (50), edad int);
+
+INSERT INTO alumnos (nombre,edad) values ("equis",12);
+
+SELECT nombre FROM alumnos;
+
+SELECT edad FROM alumnos;
+
+SELECT * FROM alumnos;
